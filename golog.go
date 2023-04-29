@@ -3,7 +3,7 @@ package cxlog
 import "log"
 
 const (
-	Trace Level = iota
+	Trace = iota
 	Debug
 	Info
 	Notice
