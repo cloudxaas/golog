@@ -12,7 +12,7 @@ const (
 	Fatal
 )
 
-func Display(logLevel, desiredLevel int, format string, args ...interface{}) {
+func Display(logLevel, desiredLevel uint8, format string, args ...interface{}) {
 	if desiredLevel >= logLevel {
 		log.Printf(format, args...)
 	}
