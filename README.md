@@ -1,0 +1,2 @@
+# golog
+Go Logging Facilities
